@@ -1,0 +1,83 @@
+ git commands
+
+git pull origin main
+
+Push Your Changes:
+
+git push origin main
+
+git add [file-name]
+
+git commit -m "Resolved merge conflicts"
+
+git push origin main
+
+git config --global user.name "Your Name"
+
+git config --global user.email "your.email@example.com"
+
+git config --list
+
+git init
+
+git clone [url]
+
+git status
+
+git add [file]
+
+git add .
+
+git commit -m "Commit message"
+
+git branch
+
+git branch [branch-name]
+
+git checkout [branch-name]git pull [remote] [branch]
+
+git fetch [remote]git push [remote] [tag-name]
+
+git push --tags
+
+git checkout -b [branch-name]
+
+git merge [branch-name]
+
+git push [remote] [branch]
+
+git remote -v
+
+git remote add [name] [url]
+
+git remote rm [name]
+
+git log
+
+git log --oneline
+
+git log --graph
+
+git diff [commit1] [commit2]
+
+git reset [file]
+
+git checkout -- [file]
+
+git reset --soft [commit]
+
+git reset --hard [commit]
+
+git tag
+
+git tag [tag-name]
+
+git stash
+
+git stash list
+
+git stash pop
+
+echo "filename_or_directory_to_ignore" >> .gitignore
+
+git rm -r --cached .
