@@ -1,0 +1,20 @@
+USER COMMANDS :
+1. sudo useradd sai
+  
+2. sudo useradd -s /bin/bash gopi
+    
+3. sudo useradd -s /bin/bash -m -d /home/kumar kumar
+      
+4. sudo useradd -s /bin/bash -m -d /home/bujji -c "Developer" bujji
+  
+
+5. sudo useradd -s /bin/bash -m -d /home/pallavi -u 9998 -c "developer" pallavi
+  
+
+ENSURE THAT TO SET A PASSWORD AND LOGIN TO THE USER, sudo passwd "user_name" && sudo login "user_name"
+
+!!! -s /bin/bash: Specifies the login shell for the user (in this case, /bin/bash).
+-m: Creates a home directory if one doesn't already exist.
+-d [directory]: Specifies the home directory location for the user.
+-c "comment": Adds a comment or description to the user account.
+-u [UID]: Manually sets a User ID (UID) for the user. !!!
