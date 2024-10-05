@@ -1,0 +1,125 @@
+# Linux Commands Cheat Sheet
+
+This is a collection of essential Linux commands, categorized for easy reference.
+
+## 1. File and Directory Management
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `ls`                  | List directory contents                            |
+| `cd`                  | Change the current directory                       |
+| `pwd`                 | Show current directory path                        |
+| `mkdir`               | Create a new directory                             |
+| `rmdir`               | Remove an empty directory                          |
+| `rm -r`               | Remove directory and its contents                  |
+| `cp`                  | Copy files or directories                          |
+| `mv`                  | Move or rename files or directories                |
+| `touch`               | Create a new empty file                            |
+| `cat`                 | Display contents of a file                         |
+| `ln -s`               | Create a symbolic link                             |
+
+## 2. File Permissions and Ownership
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `chmod`               | Change file permissions                            |
+| `chown`               | Change file owner                                  |
+| `chgrp`               | Change group ownership                             |
+| `umask`               | Set default file permissions                       |
+
+## 3. File Viewing and Editing
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `cat`                 | View file contents                                 |
+| `less`                | View file content interactively                    |
+| `head`                | Show the first 10 lines of a file                  |
+| `tail`                | Show the last 10 lines of a file                   |
+| `nano`                | Open file in nano text editor                      |
+| `vi` or `vim`         | Open file in Vim text editor                       |
+
+## 4. Searching and Sorting
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `grep`                | Search for a pattern in files                      |
+| `find`                | Find files and directories                        |
+| `locate`              | Find files by name                                 |
+| `sort`                | Sort lines of text in a file                       |
+| `uniq`                | Remove duplicate lines in a file                   |
+| `wc`                  | Count words, lines, and characters in a file       |
+
+## 5. Disk Usage and Management
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `df`                  | Show disk space usage                              |
+| `du`                  | Estimate file and directory space usage            |
+| `mount`               | Mount a filesystem                                 |
+| `umount`              | Unmount a filesystem                               |
+| `fdisk`               | Disk partitioning utility                          |
+
+## 6. System Information and Monitoring
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `uname -a`            | Show system information                            |
+| `top`                 | Show real-time process monitoring                  |
+| `htop`                | Interactive process viewer                         |
+| `uptime`              | Show how long the system has been running          |
+| `free -h`             | Show memory usage                                  |
+| `df -h`               | Show disk usage in human-readable format           |
+| `lscpu`               | Display CPU architecture information               |
+| `lsblk`               | List information about block devices               |
+
+## 7. Process Management
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `ps`                  | Show running processes                             |
+| `top`                 | Display real-time processes and system resource usage|
+| `kill`                | Terminate a process by PID                         |
+| `killall`             | Terminate processes by name                        |
+| `bg`                  | Resume a suspended job in the background           |
+| `fg`                  | Bring a background job to the foreground           |
+
+## 8. Networking Commands
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `ping`                | Send ICMP echo requests to test network connectivity|
+| `ifconfig`            | Configure network interfaces (deprecated, use `ip`)|
+| `ip`                  | Show/manipulate network interfaces                 |
+| `netstat`             | Show network connections and routing tables        |
+| `curl`                | Transfer data to or from a server                  |
+| `wget`                | Download files from the web                        |
+| `ssh`                 | Securely connect to a remote machine               |
+
+## 9. Archiving and Compression
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `tar -cvf`            | Create a tarball archive                           |
+| `tar -xvf`            | Extract a tarball archive                          |
+| `gzip`                | Compress files with gzip                           |
+| `gunzip`              | Decompress `.gz` files                             |
+| `zip`                 | Compress files into a `.zip` archive               |
+| `unzip`               | Extract files from a `.zip` archive                |
+
+## 10. Package Management (Debian/Ubuntu)
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `apt update`          | Update the list of available packages              |
+| `apt upgrade`         | Upgrade all installed packages                     |
+| `apt install`         | Install a package                                  |
+| `apt remove`          | Remove a package                                   |
+
+## 11. Package Management (Red Hat/CentOS)
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `yum update`          | Update the list of available packages              |
+| `yum install`         | Install a package                                  |
+| `yum remove`          | Remove a package                                   |
+
+## 12. User and Group Management
+| Command               | Description                                        |
+|-----------------------|----------------------------------------------------|
+| `useradd`             | Create a new user                                  |
+| `usermod`             | Modify user account settings                       |
+| `userdel`             | Delete a user                                      |
+| `passwd`              | Change a user’s password                           |
+| `groupadd`            | Add a new group                                    |
+| `groupdel`            | Delete a group                                     |
+
+---
