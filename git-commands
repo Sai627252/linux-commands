@@ -80,4 +80,4 @@ echo "filename_or_directory_to_ignore" >> .gitignore
 
 git rm -r --cached .
 
-these are the all the commands of git written by sai
+This is my git commands creation 
